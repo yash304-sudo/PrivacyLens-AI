@@ -1,0 +1,6 @@
+flowchart TD
+    A[User pastes text] --> B[Pattern-based detector]
+    B --> C[Mask sensitive matches]
+    C --> D[Heuristic risk score]
+    D --> E[Review results]
+    E --> F[Download masked text]
